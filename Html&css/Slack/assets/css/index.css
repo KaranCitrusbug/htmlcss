@@ -1,0 +1,451 @@
+
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 18px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+section{
+    width: 100%;
+    background-color:rgb(99, 29, 87);
+    color: white;
+}
+select{
+    background-color: inherit;
+    color: white;
+    border:none;
+    font-size: 15px;
+    font-weight: 700;
+}
+option{
+    background-color:white;
+    color: black;
+}
+#navbar #slack{
+    font-size: 30px;
+    font-weight: 300;
+}
+#navbar #tagName{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 6px;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+    text-align: center;
+}
+
+#button1{
+    background-color: inherit;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+#button2{
+    background-color: rgb(99, 29, 87);;
+    color: white;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#button3{
+    background-color: white;
+    color: rgb(99, 29, 87);
+    border: solid rgb(99, 29, 87);
+    border-width: 1px;
+    border-radius: 6px;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#button2:hover{
+    border-width: 3px;
+    transition: 1s;
+}
+#button3:hover{
+    border-width: 3px;
+    transition: 1s;
+}
+#firstHead{
+    margin-left: 130px;
+    font-size: 60px;
+}
+#secondHead{
+    margin-left: 130px;
+    font-size: 60px;
+    color: rgb(255, 182, 86);
+}
+#detail{
+
+   
+    margin-left: 140px;
+    margin-top: 35px;
+}
+
+#para1{
+    margin-left: 130px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    word-spacing: 8px;
+}
+#button4{
+    background-color: white;
+    color: rgb(99, 29, 87);
+    border: solid rgb(99, 29, 87);
+    border-width: 1px;
+    border-radius: 6px;
+    width: 285px;
+    height: 50px;
+    font-size: 13px;
+ 
+    font-weight: 700;
+    margin-left: 50px;
+
+}
+#button4:hover{
+    border-width: 3px;
+    transition: 1s;
+}
+#button5{
+    background-color: rgb(74, 125, 236);
+    color: white;
+    border:none;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 8px;
+}
+#googleButton{
+    background-color:rgb(74, 125, 236); 
+    width: 300px;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 6px;
+}
+#para2{
+    margin-left: 50px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    font-weight: 500;
+    
+}
+#navbar #tagName{
+    font-size: 30px;
+}
+#section2{
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(243, 232, 217);
+}
+#section2 p{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px ;
+    word-spacing: 4px;
+
+}
+
+#companyImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#companyImages div img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#section3{
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(243, 232, 217);
+    color: black;
+    padding-bottom: 30px;
+
+}
+#videoDiv {
+    width: 80%;
+    margin: auto        ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#videoDiv video{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#videoDetails{
+    margin: 100px;
+}
+#videoDetails h1{
+    font-size: 50px;
+}
+#videoDetails p{
+    font-size: 22px;
+    margin-top: 13px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#videoDetails a{
+    font-weight: 500;
+    color: rgb(65, 65, 180);
+    font-size: 18px;   
+}
+
+#anchorDiv:hover{
+    border-bottom: 2px solid rgb(65, 65, 180);    
+    float: left ;
+    opacity: 1;
+}
+#section4{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#section4 h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    word-spacing: 6px;
+}
+#section4 h5{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+#section4 #button2{
+    width: 330px;
+    height: 60px;
+    font-weight: 600;
+}
+#section4 #button3{
+    width: 200px;
+    height: 60px;
+    font-weight: 600;
+}
+#section4 ul span{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(99, 29, 87);;
+   
+}
+#section4 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 70%;
+
+}
+
+#section4 li p{
+    font-size: 14px;
+    width: 200px;
+}
+#videoDetails h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+#videoDetails h6{
+    font-weight: 900;
+    font-size:15px;
+    padding-left: 0;
+}
+#videoDetails p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0px;
+}
+#section4 #averageDetail{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#videoCard{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+#videoCard a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 60px;
+}
+#container{
+    max-width: 300px;
+    height:450px;
+    background-color: white;
+    border: 10px solid white;
+    align-items: center;
+    transition: 0.4s;
+  
+}
+#cardAnchor{
+    margin-right: 20px;
+}
+#card img{
+    width: 100%;
+    margin: 0;
+}
+#cardTitle{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#cardDetail{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+#cardButton{
+    font-weight: 600;
+    color: rgb(65, 65, 180);
+   
+    margin-bottom: 10px;
+}
+
+#container:hover{
+    max-width: 310px;
+}
+
+#footerBg{
+    background-color:  rgb(99, 29, 87);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    border-radius: 0% 0% 50% 50%;
+   
+}
+#footerBg h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+hr{
+    width: 65%;
+    background-color: gray  ;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+#footer1 li{
+    margin: 10px;
+}
+table{
+    text-align: center;
+    font-size: 14px;
+  
+}
+#footerTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 500px;
+    width: 50%;
+}
+td{
+
+    padding: 15px;
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+   
+}
+
+#socialMedia{
+    
+    margin: auto;
+}
+h6{
+    padding: 10px;
+    font-size: 13px;
+}
+#selectRegion{
+    color: black;
+    font-size: 13px;
+}
+#icon{
+    margin-right: 350px;
+}
+#bottom div{
+    padding: 10px;
+    font-size: 16px;
+}
+
+#profile
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+    width: 90%;
+}
+
+img
+{
+    margin-top: 100px;
+    margin-left: 250px
+}
